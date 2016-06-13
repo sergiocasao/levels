@@ -1,0 +1,86 @@
+/* CSS Document */
+
+#csschat{
+
+
+background-color: #ffffff;
+z-index:9;
+margin-top: 0px;
+border-bottom:#FFFFFF solid 1px;
+border-left:#FFFFFF solid 1px;
+border-right:#FFFFFF solid 1px;
+height: 100%;
+padding-top: 15px;
+
+
+position: fixed;
+		/*nos posicionamos en el centro del navegador*/
+		
+		left:50%;
+		/*determinamos una anchura*/
+		width:1000px;
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		margin-left:-500px;
+		/*determinamos una altura*/
+
+		/*indicamos que el margen superior, es la mitad de la altura*/
+
+
+		
+		/*CENTRAR*/
+}
+
+
+
+
+
+
+#contacto{
+
+width:100%;
+height:80px;
+border-bottom:1px solid #CCCCCC;
+position:static;
+font-family:"Segoe UI Light";
+font-size:12px;
+cursor: pointer;
+
+
+}
+
+#contacto:hover b{
+
+text-decoration: underline;
+
+
+}
+
+#mensaje{
+
+width:100%;
+font-family:"Segoe UI Light";
+font-size:12px;
+/*border:1px solid #808080;*/
+
+}
+
+#boton3{
+
+
+	background: #410606;
+	color: #ffffff;
+	display: inline-block;
+	font-family: "Segoe UI Light";
+	font-size: 12px;
+	line-height: 30px;
+	padding: 0 20px;
+	text-decoration: none;
+	font-style: normal;
+	cursor:pointer;
+	
+
+
+}
+	
+
+

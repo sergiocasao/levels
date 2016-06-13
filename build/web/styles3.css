@@ -1,0 +1,499 @@
+@charset "iso-8859-1";
+
+body {
+	background-attachment: fixed;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:"Segoe UI Light";
+	
+
+}
+.Estilo1 {font-size: 36px}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+fieldset {   
+  -moz-border-radius:8px;  
+  border-radius: 8px;  
+  -webkit-border-radius: 8px;
+}
+
+select {
+
+background:#FFFFFF
+
+}
+
+hr{
+padding:0px;
+
+
+}
+
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#cssmenu {
+  height: 49px;
+  border-radius: 0px 0px 0 0;
+  -moz-border-radius: 0px 0px 0 0;
+  -webkit-border-radius: 0px 0px 0 0;
+  background: #410606;
+  position: fixed;
+  border-bottom: 1px solid #410606;
+  float:none; 
+  z-index: 10;
+  width: 100%;
+
+  
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#cssmenu a {
+	background: #410606;
+	color: #ffffff;
+	display: inline-block;
+	font-family: "Segoe UI Light";
+	font-size: 12px;
+	line-height: 49px;
+	padding: 0 20px;
+	text-decoration: none;
+	font-style: normal;
+	cursor:pointer;
+}
+
+#cssmenu a:active {
+	background: #410606;
+	color: #ffffff;
+	display: inline-block;
+	font-family: "Segoe UI Light";
+	font-size: 12px;
+	line-height: 49px;
+	padding: 0 20px;
+	text-decoration: none;
+	font-style: normal;
+	cursor:pointer;
+
+}
+
+#cssmenu i{
+
+	background: #ffffff;
+	color: #410606;
+	display: inline-block;
+	font-family: "Segoe UI Light";
+	font-size: 12px;
+	line-height: 30px;
+	padding: 0 20px;
+	text-decoration: none;
+	font-style: normal;
+	margin-top:8.5px;
+	cursor:pointer;
+	
+	
+}
+
+#cssmenu img{
+margin-top:13px;
+vertical-align: top;
+display: inline-block;
+
+}
+
+#cssmenu ul {
+  list-style: none;
+
+}
+#cssmenu > ul {
+  float: right;
+  
+
+}
+#cssmenu > ul > li {
+  float: right;
+
+}
+
+
+
+#cssmenu > ul > li:hover:after {
+  content: '';
+  display:none;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid #ffffff;
+  margin-left: 0px;
+}
+#cssmenu > ul > li:first-child > a {
+  border-radius: 0px 0 0 0;
+  -moz-border-radius: 0px 0 0 0;
+  -webkit-border-radius: 0px 0 0 0;
+}
+#cssmenu > ul > li:last-child > a {
+  border-radius: 0 0px 0 0;
+  -moz-border-radius: 0 0px 0 0;
+  -webkit-border-radius: 0 0px 0 0;
+}
+#cssmenu > ul > li.hover a {
+  box-shadow: inset 0 0 3px #410606;
+  -moz-box-shadow: inset 0 0 3px #410606;
+  -webkit-box-shadow: inset 0 0 3px #410606;
+  background: #410606; 
+
+}
+#cssmenu > ul > li:active > a {
+  background: #410606;
+  display:block;
+  box-shadow: inset 0 0 3px #410606;
+  -moz-box-shadow: inset 0 0 3px #410606;
+  -webkit-box-shadow: inset 0 0 3px #410606;
+}
+#cssmenu .has-sub {
+  z-index: 1;
+}
+#cssmenu .has-sub:hover > ul {
+  	display: block;
+  	-moz-box-shadow: 1px 1px 14px #333333;
+	-webkit-box-shadow: 1px 1px 14px #333333;
+	box-shadow: 1px 1px 14px #333333;
+	
+}
+
+#cssmenu .has-sub ul {
+ 	display: none;
+ 	position: absolute;
+ 	width: 200px;
+ 	top: 100%;
+ 	right: 0;
+ 	border:dotted #ffffff 0px ;
+ 	
+}
+
+#cssmenu .has-sub ul li {
+  *margin-bottom: -1px;
+}
+#cssmenu .has-sub ul li a {
+  background: #ffffff;
+  border-bottom: 1px dotted #410606;
+  color: #410606;
+  filter: none;
+  font-size: 11px;
+  display: block;
+  line-height: 120%;
+  padding: 10px;
+}
+#cssmenu .has-sub ul li:hover a {
+  background: #410606;
+  color:#ffffff;
+  border:1px dotted #410606;
+  
+  }
+  
+#cssmenu .has-sub .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub .has-sub ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+#cssmenu .has-sub .has-sub ul li a {
+  background: #ffffff;
+  border-bottom: 1px dotted #410606;
+}
+#cssmenu .has-sub .has-sub ul li a:hover {
+  background: #ffffff;
+}
+
+
+
+
+
+
+#logmenu{
+	background: #410606;
+	width: 100%;
+	heigth: 100px;
+	color: #FFFFFF;
+	font-family: "Segoe UI Light";
+	font-size:12px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+
+}
+
+#logmenu legend{
+	
+	color: #FFFFFF;
+	font-family: "Segoe UI Light";
+	
+
+}
+
+
+#alta {
+
+width: 60%;
+vertical-align: middle;
+padding-left:20%;
+height:222px;
+
+}
+
+#alta form fieldset{
+padding:10px;
+}
+
+#alta form fieldset legend{
+font-size:25px;
+}
+
+#tablalta {
+
+}
+
+#boton{
+	background:#FFFFFF;
+	vertical-align:middle;
+	color:#410606;
+	line-height: 30px;
+	width:100px;
+	cursor:pointer;
+}
+
+#boton2{
+
+	background: #410606;
+	color: #ffffff;
+	display: inline-block;
+	font-family: "Segoe UI Light";
+	font-size: 12px;
+	line-height: 30px;
+	padding: 0 20px;
+	text-decoration: none;
+	font-style: normal;
+	margin-top:8.5px;
+	cursor:pointer;
+	vertical-align:middle;
+	
+
+
+}
+
+/* cuerpo para que todo salga en medio*/
+
+#cuerpo{
+background:#ffffff;
+color:#410606;
+vertical-align:baseline;
+width:1000px;
+position: absolute;
+left:50%;		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+margin-left:-500px;		
+border-right:1px solid #999999;
+border-left:1px solid #999999;
+margin-top:49px;
+padding:0px;
+}
+/*Aqui acabe el cuerpo*/
+/*Informacion del usuario*/
+
+#info{ 
+background:#FFFFFF;
+color: #333333;
+font-family: "Segoe UI Light";
+font-size:18px;
+padding-bottom: 30px;
+padding-top: 20px;
+vertical-align: middle;
+margin-top:100px;
+	
+	/*CENTRAR */
+	
+	
+	position: absolute;
+		/*nos posicionamos en el centro del navegador*/
+		
+		left:50%;
+		/*determinamos una anchura*/
+		width:700px;
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		margin-left:-350px;
+		/*determinamos una altura*/
+
+		/*indicamos que el margen superior, es la mitad de la altura*/
+
+
+		padding:5px;
+		
+		/*CENTRAR*/
+
+	
+}
+
+#info legend{ 
+
+	font-size:36px;
+	color:#410606;
+	
+
+}
+
+#info p{ 
+
+	font-size:12px;
+	color:#410606;
+	
+
+}
+
+/*Aqui termina todo respecto a la informacion del usuario*/
+
+/* #contenido{
+background:#FFFFFF;
+color: #410606;
+font-family: "Segoe UI Light";
+font-size:12px;
+padding-bottom: 30px;
+padding-top: 0px;
+vertical-align: middle;
+margin-top:0px;
+	
+	/*CENTRAR */
+	
+	
+	/* position: absolute; /*
+		/*nos posicionamos en el centro del navegador*/
+		
+	/*	left:50%;
+		/*determinamos una anchura*/
+	/*	width:700px;
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	/*	margin-left:-350px;
+		/*determinamos una altura*/
+
+		/*indicamos que el margen superior, es la mitad de la altura*/
+
+
+	/*	padding:0px;
+		
+		/*CENTRAR*/
+/* } */
+
+
+
+/* Div para las publicaciones personales */
+
+#opcion{
+
+height: 180px;
+background-color:#ffffff;
+z-index:9;
+margin-top: 0px;
+border-bottom:#999999 solid 1px;
+border-left:#999999 solid 1px;
+border-right:#999999 solid 1px;
+
+position: fixed;
+		/*nos posicionamos en el centro del navegador*/
+		
+		left:50%;
+		/*determinamos una anchura*/
+		width:990px;
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		margin-left:-500px;
+		/*determinamos una altura*/
+
+		/*indicamos que el margen superior, es la mitad de la altura*/
+
+
+		padding:5px;
+		
+		/*CENTRAR*/
+}
+
+#publicar{
+	background:#FFFFFF;
+	color: #410606;
+	font-family: "Segoe UI Light";
+	font-size:12px;
+	display:block;
+	vertical-align: middle;
+	/*CENTRAR */
+	
+	
+	position:absolute;
+	/*nos posicionamos en el centro del navegador*/
+		
+		left:490px;
+	/*determinamos una anchura*/
+		width:600px;
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		margin-left:-300px;
+	/*determinamos una altura*/
+
+		/*indicamos que el margen superior, es la mitad de la altura*/
+
+
+		padding:5px;
+		top: 11px;
+		
+		/*CENTRAR*/
+}
+
+#publicar textarea {
+	resize: none;
+	width:600px;
+	height:100%;
+}
+
+/* Aqui termina las publicacion personal */
+
+
+#espacio{
+height:180px
+}
+#publicacion{
+padding:50px;
+padding-top:30px;
+padding-bottom:10px;
+position:static;
+font-family:"Segoe UI Light";
+font-size:12px;
+}
+
+#publicacion textarea {
+	resize: none;
+	width:600px;
+	height:100%;
+}
+
+/* CSS Document */
+
